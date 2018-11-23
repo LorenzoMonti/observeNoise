@@ -2,8 +2,8 @@
 
 This repository contains Bash and Python code which reads decibel levels and record audio from a connected USB sound level meter, in order to analyze and saves data and plot related to it. All tests were done with a Rasbperry Pi 2 Model B.
 
-## How to use
-First of all:
+## How to install
+
  1. Create a new virtual environment inside the directory:
  ```
  virtualenv env
@@ -12,7 +12,7 @@ First of all:
  ```
  source env/bin/activate
  ```
- 3. install soundmeter from here: [soundmeter](https://github.com/shichao-an/soundmeter)
+ 3. install [soundmeter](https://github.com/shichao-an/soundmeter)
  4. install library dependencies
  ```
  pip install -r requirements.txt
@@ -21,5 +21,7 @@ First of all:
  ```
  mkdir gathered_data gathered_mp3 plot_data
  ```
-6. launch init.sh `sh init.sh`
-7. enjoy! :)
+## How to use
+1. add your personal ROOT in `analyze.py`
+2. launch init.sh: `sh init.sh`
+3. enjoy! :)
