@@ -25,3 +25,11 @@ This repository contains Bash and Python code which reads decibel levels and rec
 1. add your personal ROOT in `analyze.py`
 2. launch init.sh: `sh init.sh`
 3. enjoy! :)
+
+
+## Optional configuration
+in util folder you can find:
+1. `ssh_reverse_tunnel.sh` in order to create SSH Reverse Tunnel. Change port (over 1024), user, server_URL.
+2. `check_tunneling_alive.sh` in order to check if SSH Reverse Tunnel is alive. Change server_ip with your server IP.
+
+insert scripts in /etc/rc.local if you want execute at boot-time.
