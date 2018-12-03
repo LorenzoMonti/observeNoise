@@ -14,7 +14,7 @@ ROOT = "insert_your_path"
 dbList = []
 dataList = []
 DB_THRESHOLD = 120.0
-TIME_ANALYSIS = 6 * 20 #30 # un ora: data are extracted every 10 seconds
+TIME_ANALYSIS = 6 * 30 # 1/2 ora: data are extracted every 10 seconds
 PERCENTAGE_GOOD_RESULT = 80
 
 def readData(data):
