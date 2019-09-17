@@ -12,14 +12,14 @@ This repository contains Bash and Python code which reads decibel levels and rec
  ```
  source env/bin/activate
  ```
- 3. install [soundmeter](https://github.com/shichao-an/soundmeter)
+ 3. install [inspectNoise](https://github.com/LorenzoMonti/inspectNoise/tree/master)
  4. install library dependencies
  ```
  pip install -r requirements.txt
  ```
  5. create the following directory
  ```
- mkdir gathered_data gathered_mp3 plot_data
+ mkdir gathered_data
  ```
 ## How to use
 1. add your personal ROOT in `analyze.py`
